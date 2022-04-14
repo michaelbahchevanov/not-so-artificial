@@ -9,13 +9,6 @@ const firebaseConfig = {
     messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
     appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
     measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
-    // apiKey: "AIzaSyCSbhK5MJchj5uc8qXf8smtbuDtPBmoqzI",
-    // authDomain: "not-so-artificial.firebaseapp.com",
-    // projectId: "not-so-artificial",
-    // storageBucket: "not-so-artificial.appspot.com",
-    // messagingSenderId: "443365341927",
-    // appId: "1:443365341927:web:cb89944a00988eafb04042",
-    // measurementId: "G-WSEMV9MR3T"
 };
 
 if (!getApps.length) {
